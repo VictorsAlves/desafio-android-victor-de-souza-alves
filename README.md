@@ -4,12 +4,13 @@
 - Java
 - Kotlin
 - material desing
-- constraintlayout
 - mockito
 - gson
 - retrofit2
 - jetpack
 - picasso
+## Arquitetura
+- viper
 
 
 
