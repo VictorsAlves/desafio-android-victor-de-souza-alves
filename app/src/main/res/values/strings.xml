@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Marvel HQ</string>
+
+    <string name="referente_hash_invalid">Referente ou Hash invalido</string>
+    <string name="apikey_date_hash_invalid">APIKEY, data/hora ou Hash invalida</string>
+    <string name="action_not_permissiont">Ação não permitida</string>
+    <string name="action_proib">Ação proibida</string>
+    <string name="not_connection">Sem conexão</string>
+    <string name="error_connection">Erro de conexão com o servidor</string>
+    <string name="cred_invalid">Credenciais inválidas</string>
+    <string name="hq_more_cash">HQ MAIS CARA</string>
+    <string name="not_descript">no descript</string>
+    <string name="list_empty">Personagem sem HQ</string>
+
+
+    <string name="accessibility_image_character">Imagem do Personagem</string>
+    <string name="accessibility_image_magazine">Imagem da revista</string>
+
+
+</resources>
