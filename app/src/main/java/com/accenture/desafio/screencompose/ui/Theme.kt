@@ -1,4 +1,4 @@
-package com.accenture.apresentacaoaccenturecompose.ui
+package com.accenture.desafio.screencompose.ui
 
 import androidx.compose.Composable
 import androidx.ui.foundation.isSystemInDarkTheme
@@ -28,7 +28,7 @@ private val LightColorPalette = lightColorPalette(
 )
 
 @Composable
-fun ApresentacaoAccentureComposeTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable() () -> Unit) {
+fun CharacterViewComposeTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable() () -> Unit) {
     val colors = if (darkTheme) {
         DarkColorPalette
     } else {

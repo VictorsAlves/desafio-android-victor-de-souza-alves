@@ -1,4 +1,4 @@
-package com.accenture.apresentacaoaccenturecompose.ui
+package com.accenture.desafio.screencompose.ui
 
 import androidx.ui.material.Typography
 import androidx.ui.text.TextStyle
