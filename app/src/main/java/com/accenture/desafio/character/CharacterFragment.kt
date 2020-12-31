@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.accenture.desafio.components.recyclerview.adapter.CharacterAdapter
 import com.accenture.desafio.databinding.FragmentCharacterBinding
+import com.accenture.desafio.users.RouterUser
 import com.accenture.desafio.viewmodel.CharacterViewModel
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.launch
@@ -24,6 +25,7 @@ class CharacterFragment : Fragment(), CharacterContract.CharacterPresenterOutput
     private lateinit var characterViewModel: CharacterViewModel
     private lateinit var characterAdapter: CharacterAdapter
     private lateinit var router: RouterCharacter
+    private lateinit var routerUser: RouterUser
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -89,6 +91,11 @@ class CharacterFragment : Fragment(), CharacterContract.CharacterPresenterOutput
     override fun returnError(error: String) {
         val snackbar = Snackbar.make(binding.root, error, Snackbar.LENGTH_LONG)
         snackbar.show()
+    }
+
+    fun onClickUser(){
+        routerUser.navigationToUser()
+
     }
 
 }

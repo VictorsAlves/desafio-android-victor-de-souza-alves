@@ -18,6 +18,9 @@
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_characterFragment_to_userFragment"
+            app:destination="@id/userFragment" />
     </fragment>
 
     <fragment
@@ -40,4 +43,9 @@
         android:name="com.accenture.desafio.magazine.MostExpensiveMagazineFragment"
         android:label="fragment_magazine"
         tools:layout="@layout/fragment_most_expensive_magazine" />
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.accenture.desafio.users.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
 </navigation>

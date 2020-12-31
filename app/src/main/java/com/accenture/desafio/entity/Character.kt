@@ -7,4 +7,5 @@ data class Character(
     var thumbnail: Thumbnail = Thumbnail(),
     var prices: MutableList<Price> = ArrayList(),
     var title: String = ""
+
 )

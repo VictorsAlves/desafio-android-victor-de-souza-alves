@@ -13,6 +13,7 @@ abstract class Service(private val context: Context) {
         private val PUBLIC_KEY = "4a2a39e0402d82bbd107f62ff8fd20ad"
         private val PRIVATE_KEY = "6e5b32f1b0036dd1a119c6b781ed94ef7798ac30"
         val URL_SERVICE = "http://gateway.marvel.com/"
+        val URL_PICPAY = "http://careers.picpay.com/tests/mobdev/"
     }
 
     fun getApiKey(): String {
